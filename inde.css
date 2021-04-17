@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');	
+	*{
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+	}
+	body {
+		background-color: rgb(252, 252, 252);
+		
+	}
+	.nav_bar{
+		background-color:rgba(16, 92, 133,0.8);
+		overflow: hidden;
+		
+		
+	}
+	h4{
+		float: left;
+		padding-left:40px;
+		padding-top: 10px;
+		font-size: 20px;
+		
+	}
+	.nav_bar ul{
+		float: right;
+		/*width: auto;*/
+		font-weight: 600;
+		
+	}
+
+.nav_bar ul li{
+ float: left;
+ list-style-type: none;
+}	
+.nav_bar ul li a{
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	color:black;
+	font-family: verdena,serif;
+    padding:10px 30px 10px; 
+    margin-right: 30px;
+}
+	.nav_bar ul li a:hover{
+		transition: background-color 0.5s ease-in 0.2s;
+   background-color: rgb(35, 72, 120);
+
+}
+/*this is for home section*/
+
+.intro{
+	
+	float: left;
+	margin-left: 100px;
+	font-weight: 600;
+	line-height: 40pt;
+	color:rgb(6, 63, 87);
+	width: 30%;
+	font-family: 'Roboto Slab',serif;
+	font-size:2vw;
+	
+}
+.image{
+  margin-left: auto;
+  width: 40%;
+  
+         
+         
+   }
+#content{
+ 
+ margin: 10%;
+ 
+
+
+  }
+.intro a{
+    	text-decoration: none;
+    	color: black;
+    	border-radius: 3px;
+    	background-color:rgba(16, 92, 133,0.8);
+    	font-size: 15px;
+    	padding:5px;
+    }
+ .intro a:hover{
+ 	background-color: rgba(16, 92, 133,0.5);
+ }
+
+ /*this 2nd section about*/
+
+ #about{
+    
+    background-color:#FBFAFA;
+
+    }
+   .about{
+   	text-align: center;
+   	font-weight:600;
+   }
+
+  
+
+ .my_about{
+   padding-top: 50px;
+padding-bottom: 50px;
+    
+ }
+
+
+.img{
+
+border: none;
+border-radius: 10px;
+height: auto;
+
+margin-left:300px;
+
+box-shadow: 0px 5px 10px 0px rgba(138, 155, 233, 0.856);
+display:inline;
+
+}
+.describe{
+    display:inline-block;
+	overflow:hidden;
+	margin-left: 200px;
+	font-size: 20px;
+	font-family: 'Roboto Slab','Times New Roman', Times, serif;
+	line-height: 25pt;
+    height: max-content;
+	
+}
+
+
+
+
+
+
+/*this is for 3rd skill section
+````````````````````````````````
+*/
+
+#skill{
+	background-color: #FBFAFA;
+	margin-top: 5%;
+}
+
+
+#skills{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 5%;
+
+	
+	height: 400px;
+	
+   
+	
+}
+.skill_title{
+	text-align: center;
+	
+}
+.skill_set{
+	
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+	
+	background-color:rgb(0,115,153);
+	padding:30px;
+	border-radius: 15px;
+    height: auto;
+    width:40%;
+}
+.skill_set progress{
+	width:100%;
+	
+}
+.skill_image{
+	
+    border:2px solid grey;
+    border-radius: 20px;
+    padding:3px;
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.4);
+
+	}
+	.skill_image img{
+	border-radius: 20px;
+	}
+
+
+
+
+
+ /*this section is for works 4th*/
+
+#works_section{
+	margin-bottom: 50px;
+	height:650px;
+	background-color: #FBFAFA;
+}
+ .myworks a img{
+ 	object-fit: cover;
+ 	border-radius: 20px;
+ 	box-shadow: 0px 7px 8px 5px rgba(3, 3, 3, 0.158);
+ }
+ .myworks a img:hover{
+    box-shadow:0px 10px 10px 10px rgba(11, 28, 105, 0.911);
+}
+ .mygoals a img{
+ 	object-fit: cover;
+ 	border-radius: 20px;
+ 	box-shadow: 0px 10px 10px 9px rgba(0,0,0,0.7);
+ }
+ .mygoals a img:hover{
+     box-shadow:0px 10px 10px 10px rgba(11, 28, 105, 0.911);
+ }
+
+.works_title{
+
+	padding-top: 30px;
+	
+	text-align: center;
+}
+.works{
+	margin-left:200px;
+	margin-top: 50px;
+}
+
+.achievements{
+	margin-left: 130px;
+	margin-top: 50px;
+}
+
+
+
+/*this is contact section*/
+#contact{
+	height: 700px;
+	background-color: #FBFAFA;
+
+}
+
+.contact_title{
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.contact_details{
+	background-color: rgb(0, 115, 153);
+    padding-left: 5%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin:30px auto;
+	width: 30%;
+	height: auto;
+	font-size: 20px;
+	font-family: 'Pirata One', cursive;
+	border:2px solid white;
+	border-radius: 20px;
+	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.2); 
+}
+
+.contact_details input[type="text"] {
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	line-height: 30px;
+}
+.contact_details textarea{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.contact_details input[type="submit"]{
+	margin-left:100px;
+	width:50px;
+	height: 30px;
+	
+}
+
+
+/*this web address section*/
+
+#web_address{
+
+ height: 150px;
+ background-color: rgb(0,115,153);
+
+}
+
+#web_address h2{
+	padding-top: 25px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+
+}
+#web_address ul{
+	
+	text-align: center;
+	
+}
+#web_address ul li{
+	
+	padding:0px 5px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.ad-ul li a{
+   
+   padding:10px;
+	display: block;
+	text-decoration: none;
+}
+.ad-ul li a:hover{
+	background-color: white;
+	border-radius: 10px;
+}
+.ad-ul li a i{
+	font-size: 30px;
+	color:black;
+}
+
+
+
+/*MEDIA QUERY STARTS HERE*/
+
+/*nav_bar query*/
+@media screen and (max-width:600px) {
+     .nav_bar{
+     	width:100%;
+     	display: block;
+     	
+
+     }
+
+     	.nav_bar h4{
+       		float:none;
+       		text-align: center;
+     		
+     		}
+	.nav_bar ul{
+			float:none;
+           
+			}
+	.nav_bar ul li {
+		float:none;
+
+		text-align: center;
+		
+
+		
+		}
+
+	.nav_bar ul li a{
+            display: inline-block;
+		     color:white;
+			padding:5px 3px;
+			border-radius: 5px;
+            margin:0px;
+			
+		}
+		.nav_bar ul li a:hover{
+            transition: background-color 0.5s ease-in 0.2ms;
+			background-color: rgb(35, 72, 120);
+		}
+    
+
+	}  
+		
+
+/*this is intro content query*/
+
+@media screen and (max-width:600px) {
+   
+    .intro{
+    	width:100%;
+    	line-height: 20pt;
+    	
+    	font-size: 4vw;
+    	float:none;
+    	margin: 10px;
+    	color:black;
+    }
+	.image{
+		margin:0 auto;
+		width:100%;
+		padding-top:30px;
+		}
+   
+    }
+@media (min-width:200px) and (max-width:400px) {
+	
+	/* .intro{
+		background-color: blueviolet;
+		margin-left:0px;
+	}
+	.image{
+		background-color: blueviolet;
+		margin:0px;
+	} */
+	#content{
+		margin:0px;
+	}
+}
+
+
+
+/*this is for skills set query*/
+
+@media screen and (max-width:600px) {	
+  
+  #skills{
+	flex-direction: column;
+	height:700px;
+}
+.skill_set{
+
+    display: block;
+    width:70%;
+
+}
+
+.skill_image{
+	margin :50px auto;
+	
+    display: block;
+    border:2px solid grey;
+    padding:3px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.6);
+}
+
+ .skill_image img{
+	border-radius: 0px;
+}
+
+}
+/* this media query for about */
+
+
+
+@media screen and (max-width: 1024px){
+
+.describe{
+	padding-left: 100px;
+    height: max-content;
+}
+
+}
+
+@media (min-width: 800px) and (max-width: 950px)
+{
+	.my_about{
+		display:inline-flex;
+		align-items: center;
+	}
+	.img{
+		margin-left:75px;
+		margin-right: 75px;
+		
+	}
+	.describe{
+		
+		padding-left: 0px;
+		margin-left:0px;
+	}
+
+}
+
+
+@media screen and (max-width:800px)
+{
+
+.my_about{
+	overflow: hidden;
+}
+.img{
+   
+   float: left;
+   margin-left: 100px;
+   margin-right:150px;
+}
+.describe{
+	width:50%;
+	padding-left: 0px;
+	padding-right: 0px;
+    height: max-content;
+	
+}
+
+}
+
+@media (min-width: 502px) and (max-width: 750px)
+
+{
+
+	.my_about{
+		height: max-content;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		
+		
+	}
+
+
+.describe{
+	margin-left:0px;
+	/* position: relative;
+	left:25%; */
+	padding-right:40px;
+    height: max-content;
+}
+}
+
+
+@media screen and (max-width:600px) {
+.my_about{
+	height: 700px;
+	width: 100%;
+}
+
+.img{
+	float: none;
+margin:0px auto;
+width:240px;
+border:2px inset white;
+box-shadow:0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+.img source{
+	object-fit: cover;
+	padding-left: 5px;
+}
+
+.describe{
+font-family: 'Bree Serif', serif;
+/*font-size: 20px;*/
+position: relative;
+word-wrap: break-word;
+top:45px;
+left:2%; 
+padding-left: 0px;
+width:100%;
+padding-top: 30px;
+height: max-content;
+line-height: 20px;
+
+}
+}
+@media (min-width:300px) and (max-width:400px){
+
+	.describe{
+		margin-left:0px;
+	}
+}
+/*query for works section*/
+
+@media (min-width: 1024px) and (max-width: 1300px)
+
+{
+
+	#works_section{
+		height: auto;
+	}
+.works{
+	margin-left: 100px;
+	
+}
+.achievements{
+
+	margin: 20px;
+	
+}
+
+}
+@media screen and (max-width: 1024px)
+{
+
+	.works{
+	margin-left: 75px;
+	margin-right: 50px;
+}
+.achievements{
+	margin-left: 30px;
+}
+}
+
+@media (min-width: 800px) and (max-width: 1000px)
+
+{
+
+#works_section{
+	height: auto;
+}
+
+.works{
+	margin:35px;
+	
+
+
+}
+
+.achievements{
+	margin:30px;
+}
+}
+
+@media screen and (max-width: 800px){
+
+#works_section{
+	height:auto;
+
+}
+
+
+.works{
+	margin:30px;
+	padding: 0px;
+}
+
+.achievements{
+	margin:40px;
+	padding:0px;
+}
+}
+
+
+@media screen and (max-width:600px)
+
+ {
+ 	#works_section{
+ 		height: auto;
+
+ 	}
+
+  .works{
+  	display: block;
+  	margin:30px auto;
+  }
+
+
+  .achievements{
+  	display: block;
+  	margin: 50px auto;
+  }
+
+ }
+
+
+ /*media query for contact*/
+
+
+ @media screen and (max-width: 1024px){
+
+	.contact_details{
+		width:60%;
+		padding-left: 200px;
+		margin: 30px auto;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1000px)
+{
+
+	.contact_details{
+		padding-left: 150px;
+	}
+}
+@media screen and (max-width: 800px){
+
+.contact_details{
+
+	width:50%;
+	padding-left: 80px;
+}
+
+}
+
+
+@media screen and (max-width: 600px){
+
+.contact_details{
+	width:70%;
+	padding-left: 200px;
+}
+
+}
+
+@media (min-width: 400px) and (max-width: 550px){
+
+	.contact_details{
+		width:70%;
+        padding-left:50px;
+
+	}
+}
+
+@media screen and (max-width: 400px){
+
+	.contact_details{
+		width:70%;
+		padding-left:0px;
+	}
+}
+@media screen and (max-width:400px) and (min-width:200px)
+{
+	.contact_details{
+		width: 50%;
+		
+	}
+	textarea{
+		width: 150px;
+
+	}
+	.contact_details input[type="text"]{
+
+		width:100px;
+	}
+	#submit{
+		margin-left: 30px;
+	}
+	
+}
+
+.my_about img{
+	animation-name: slidein;
+	animation-duration: 2s;
+}
+
+@keyframes slidein{
+ from{
+	 margin-left:100%;
+	
+ }
+ to{
+	 margin-left:0px;
+	 margin-top:75px;
+ }
+
+}
